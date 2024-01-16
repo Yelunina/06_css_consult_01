@@ -1,0 +1,22 @@
+main {
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo {
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px)/16*9);
+    background-color: orange;
+    margin: 20px;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+}
+.photo1{
+    background-image: url("./image/img1.jpeg");
+}
